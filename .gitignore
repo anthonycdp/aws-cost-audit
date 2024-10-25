@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output (can be regenerated)
+output/*
+reports/*
+!output/.gitkeep
+!reports/.gitkeep
+tmp_output/
+tmp_reports/
+
+# Logs
+*.log
+logs/
+
+# AWS credentials (never commit)
+.aws/
+credentials
